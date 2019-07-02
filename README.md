@@ -30,10 +30,10 @@ The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/
 You can find step-by-step I have gone through to build CNN from ipython file which named **_Doodle_Model.ipynb_**
 This model achieved 96% f1-score without any data augmentation. In  my opinion, this result is acceptable at this early stage. There are more aspects which should be concerned rather than the accuracy. 
 
-For instance, about the dataset, it is quite small in quantity. In addition, samples in the same class are not different from others too much. It leads to less variant in dataset. The reason is that the dataset was created by a group of about 12 members and at first, we agreed that each class will be drawn with the same form. Thus, if we could build a model which achieve 99% or 100% will not be meaningful much. The main point of this project is the user's experience. So we need to make it more divergent.        
+For instance, about the dataset, it is quite small in quantity. In addition, samples in the same class are not different from others too much. It leads to less variant in dataset. The reason is that the dataset was created by a group of about 12 members and at the beginning, we united that each class will be drawn with the same form. Thus, if we could build a model which achieves 99% or 100% will not be meaningful much. The main point of this project is the user's experience. So we need to make it more divergent.        
 
 ## Demonstration
 In this commit, I also made a simple demo which was followed and modified from [Syed Moinudeen](https://github.com/moinudeen/digit-recognizer-flask-cnn). <br>
 To run the demo, you open the command promt and change the working place to the **_Demonstration_** folder. 
-Then you set <code>set FLASK_APP=app1.py</code> and run <code>flask run</code>. It will return an ID for local web browser, you copy and paste it to chrome to enjoy the demonstration. <br>
+Then you set <code>set FLASK_APP=app1.py</code> and run <code>flask run</code>. It will return an ID for local web browser, you copy and paste it to chrome and enjoy the demonstration. <br>
 Before running the demo, make sure that you installed all necessary libraries in the **_requirements.txt_**. 
