@@ -4,7 +4,7 @@ This project's goal is turning a doodle into a real image. For further applicati
 - Build a classification model 
 - Build an object detection model
 - Replace doodle object into a real object
-I. **_Create a initial dataset_** which is used to create a very first model. The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from hasBrain. <br>
+###**_Create a initial dataset_** which is used to create a very first model. The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from hasBrain. <br>
   **The dataset includes** *14 classes*
 0. *Carousel* 197 images
 1. *Description* 254 images
