@@ -7,8 +7,8 @@ This project's goal is turning a doodle into a real image. For further applicati
 
 **Note:** Until now, this work has done step 1 and 2. Hence, the following content will describe only first two step. 
 
-### Create a initial dataset 
-The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from hasBrain. <br>
+## Create a initial dataset 
+The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from [hasBrain](http://www.hasbrain.com/). <br>
 **The dataset includes** *14 classes*
 0. *Carousel* 197 images
 1. *Description* 254 images
@@ -24,4 +24,6 @@ The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/
 11. *Signup* 278 images
 12. *Video-thumbnail* 232 images
 13. *Youtube* 301 images
+
+## Build CNN model for classification 
 
