@@ -5,7 +5,7 @@ This project's goal is turning a doodle into a real image. For further applicati
 - Build an object detection model
 - Replace doodle object into a real object
 
-**Note:** Until now, this work has done step 1 and 2. Hence, the following content will describe only first two step. 
+**Note:** Until now, this work has done step 1 and 2. Hence, the following content will describe only first two steps. 
 
 ## Create a initial dataset 
 The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from [hasBrain](http://www.hasbrain.com/). File **f0**  is the dataset which contains around 3800 images. <br>
