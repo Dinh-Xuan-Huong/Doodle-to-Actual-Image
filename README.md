@@ -36,4 +36,4 @@ For instance, about the dataset, it is quite small in quantity. In addition, sam
 In this commit, I also made a simple demo which was followed and modified from [Syed Moinudeen](https://github.com/moinudeen/digit-recognizer-flask-cnn). <br>
 To run the demo, you open the command promt and change the working place to the **_Demonstration_** folder. 
 Then you set <code>set FLASK_APP=app1.py</code> and run <code>flask run</code>. It will return an ID for local web browser, you copy and paste it to chrome to enjoy the demonstration. <br>
-Before running the demo, make sure that you installed all necessary libraries in the **_requirement.txt_**. 
+Before running the demo, make sure that you installed all necessary libraries in the **_requirements.txt_**. 
