@@ -8,7 +8,7 @@ This project's goal is turning a doodle into a real image. For further applicati
 **Note:** Until now, this work has done step 1 and 2. Hence, the following content will describe only first two step. 
 
 ## Create a initial dataset 
-The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from [hasBrain](http://www.hasbrain.com/). <br>
+The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from [hasBrain](http://www.hasbrain.com/). File **_f0_**  is the dataset which contains around 3800 images. <br>
 **The dataset includes** *14 classes*
 
 0. *Carousel* 197 images
@@ -27,4 +27,7 @@ The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/
 13. *Youtube* 301 images
 
 ## Build CNN model for classification 
+You can find step-by-step I have gone through to build CNN from ipython file which named **_Doodle_Model.ipynb_**
+This model achieved 96% f1-score without any data augmentation. In  my opinion, this result is acceptable at this early stage. There are more aspects which should be concerned rather than the accuracy. 
 
+For instance, about the dataset, it is quite small in quantity. In addition, samples in the same class are not different from each other too much. It leads to less variant in dataset. The reason is that the dataset was created by a group of about 12 members and at first, we agreed that each class will be drawn with the same form. Thus, if we could build a model which achieve 99% or 100% will not be meaningful much. The main point of this project is the user's experience. So we need to make it more divergent.        
