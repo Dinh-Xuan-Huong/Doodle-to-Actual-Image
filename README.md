@@ -8,7 +8,7 @@ This project's goal is turning a doodle into a real image. For further applicati
 **Note:** Until now, this work has done step 1 and 2. Hence, the following content will describe only first two step. 
 
 ## Create a initial dataset 
-The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from [hasBrain](http://www.hasbrain.com/). File **_f0_**  is the dataset which contains around 3800 images. <br>
+The dataset was created by utilizing a provided [tool](http://draw.hasbrain.com/) from [hasBrain](http://www.hasbrain.com/). File **f0**  is the dataset which contains around 3800 images. <br>
 **The dataset includes** *14 classes*
 
 0. *Carousel* 197 images
