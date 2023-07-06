@@ -7,6 +7,6 @@ numpy
 
 h5py==2.9.0
 Pillow==6.0.0
-scipy == 1.2.0
+scipy == 1.10.0
 jsonschema==3.0.1
 https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
